@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+.Alldata {
+    width: 350px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.Alldata:hover {
+    cursor: pointer;
+}
+
+.Alldata img {
+    width: 350px;
+    height: 200px;
+    border-bottom: 1px solid grey;
+}
+
+.Alldata h3 {
+    text-align: center;
+}
+.Alldata > h4, p , select {
+    margin-left: 10px;
+}
